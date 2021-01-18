@@ -1,0 +1,62 @@
+.contatos-desc {
+   text-align: center;
+   color: white;
+   margin-top: 60px;
+   margin-bottom: 60px;
+}
+
+.contatos-desc h1 {
+   text-transform: uppercase;
+}
+
+.contatos-desc h2 {
+   text-transform: uppercase;
+   color: red;
+}
+
+.contatos-desc p {
+   text-transform: inherit;
+   font-size: 18px;
+}
+
+.row {
+   display: flex;
+   justify-content: center;
+}
+
+.row img {
+   width: 25px;
+   padding: 10px;
+   border-style: solid;
+   border-radius: 360px;
+   border-color: white;
+}
+
+.row img:hover,
+.row img:focus {
+   background: white;
+   transform: translateX(5px) scale(1.0);
+}
+
+button {
+   margin-top: 5px;
+   float: right;
+}
+
+
+textarea {
+   width: 100%;
+   padding-left: 10px;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 15px;
+   border: 1px solid #ccc;
+   outline: none;
+}
+
+textarea {
+   line-height: 20px;
+   padding: 10px;
+   height: 90px;
+   resize: none;
+}
