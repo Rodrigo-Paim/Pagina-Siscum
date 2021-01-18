@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    font-family: "BigJohn";
+
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 40px;
+}
+
+
+.imagens {
+    margin-top: 80px;
+
+}
+
+
+footer {
+    margin-top: 30px;
+}
+
+
+img {
+    width: 270px;
+    margin: 40px;
+    padding: 15px;
+    border-radius: 700px;
+    border: 4px solid #641220;
+}
+
+.scroll img {
+    width: 100px;
+    border: none;
+    margin-top: 0;
+
+
+}
+
+.logo img {
+    border: none;
+    border-radius: 0;
+    width: 250px;
+    margin-bottom: 0;
+
+}
+
+.servicos img {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+footer {
+    border-top: 1px solid white;
+}
+
+
+/*.pagina-imagem {width:100%; height: 200px;
+        background-color: black; 
+        align-content: center;
+        background-image:url(../#) 
+        background-attachment:fixed; background-size:cover;}*/
+
+.container {
+    margin-top: 20px;
+}
+
+.primeira-tela {
+    margin-top: 0;
+}
+
+.esquerda {
+    float: right;
+}
+
+.menu {
+    text-align: center;
+    list-style: none;
+    padding: 3px;
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 5px;
+    font-size: 1.4em;
+
+
+}
+
+.submenu {
+    padding-top: 5px;
+    padding-left: 0;
+
+    list-style: none;
+    text-align: center;
+
+    padding-bottom: 5px;
+    font-size: 1em;
+    position: absolute;
+    background: transparent;
+    visibility: hidden;
+    opacity: 0;
+    top: 100%;
+    width: 100%;
+    transform: translateY(-3em);
+    z-index: -1;
+    transition: all 1s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.submenu a {
+    width: 100%;
+    font-size: 1em;
+}
+
+
+.menu:focus .submenu,
+.menu:focus-within .submenu,
+.menu:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0);
+    transition-delay: 0s, 0s, 0.6s;
+}
+
+
+nav {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+nav a {
+    display: block;
+}
+
+nav>ul>li {
+    position: relative;
+    display: inline-block;
+}
+
+body {
+
+    background-image: linear-gradient(#000722, #051528);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 10px;
+    margin-top: 0;
+    background-attachment: fixed;
+    color: white;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "BigJohn";
+    src: url("../fonts/Coves\ Light.otf");
+}
+
+/* .container-fluid {
+            transition: opacity;
+            animation: fade-in 2s;
+            opacity: 1;
+            animation-name: fadeInOpacity;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
+            animation-duration: 3;
+        
+        
+        }*/
+
+.nominal {
+    font-size: 3em;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.descricao {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    margin: 25px 0 200px 0;
+    line-height: 25px;
+    font-size: 1.5em;
+
+}
